@@ -32,7 +32,7 @@ GIF created with [ShareX](https://getsharex.com/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+When trying to implement the delete function, application would crash uppon long clicking. This was beacuse a new instance of **taskAdapter** was declared as **final**. This was fixed and the delete function works as intended. 
 
 ## License
 
